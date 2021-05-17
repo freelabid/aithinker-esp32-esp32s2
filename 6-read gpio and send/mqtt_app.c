@@ -1,15 +1,4 @@
 /*
- *  mqtt_app.c file
- *
- * 	author	: Dadan
- * 	email	: dadanugm07@gmail.com
- * 	date	: 8/2/2021
- * 	revison	:
- *
-*/
-
-
-/*
  * MQTT Global stat
  * 	0 -> mqtt error
  *	1 -> connected
