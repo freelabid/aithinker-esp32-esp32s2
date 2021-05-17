@@ -37,8 +37,8 @@
 #include "driver/gpio.h"
 
 /* Set the SSID and Password via project configuration, or can set directly here */
-#define DEFAULT_SSID "FREELAB"
-#define DEFAULT_PWD "HgaloengKbnKcg22"
+#define DEFAULT_SSID "SSID"
+#define DEFAULT_PWD "PASSWORD"
 
 #if CONFIG_EXAMPLE_WIFI_ALL_CHANNEL_SCAN
 #define DEFAULT_SCAN_METHOD WIFI_ALL_CHANNEL_SCAN
