@@ -33,8 +33,8 @@
 #include "mqtt_app.h"
 
 /* Set the SSID and Password via project configuration, or can set directly here */
-#define DEFAULT_SSID "FREELAB"
-#define DEFAULT_PWD "HgaloengKbnKcg22"
+#define DEFAULT_SSID "SSID"
+#define DEFAULT_PWD "PASSWORD"
 
 #if CONFIG_EXAMPLE_WIFI_ALL_CHANNEL_SCAN
 #define DEFAULT_SCAN_METHOD WIFI_ALL_CHANNEL_SCAN
@@ -124,8 +124,8 @@ static void fast_scan(void)
 
 // MQTT and Payload
 const char mqtt_url[] = "mqtt://mqtt.iotera.io";
-const char mqtt_username[] = "mqtt_1000000181_eaaeb0b6-d102-4180-8e5d-9ea2f1f78501";
-const char mqtt_password[] = "rzkc0ex70w46x70l";
+const char mqtt_username[] = ;
+const char mqtt_password[] = ;
 uint32_t mqtt_port = 1883;
 char payload[512];
 const char ID[] = "0001";
