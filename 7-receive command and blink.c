@@ -49,8 +49,8 @@
 #include "lwip/netdb.h"
 
 /* Set the SSID and Password via project configuration, or can set directly here */
-#define DEFAULT_SSID "FREELAB"
-#define DEFAULT_PWD "HgaloengKbnKcg22"
+#define DEFAULT_SSID "SSID"
+#define DEFAULT_PWD "PASSWORD"
 
 #if CONFIG_EXAMPLE_WIFI_ALL_CHANNEL_SCAN
 #define DEFAULT_SCAN_METHOD WIFI_ALL_CHANNEL_SCAN
@@ -140,8 +140,8 @@ static void fast_scan(void)
 
 // START OF MQTT & SENDING DATA
 const char mqtt_url[] = "mqtt://mqtt.iotera.io";
-const char mqtt_username[] = "mqtt_1000000181_a5fd868b-95c0-49f9-9f73-5b48dda87515";
-const char mqtt_password[] = "ahyh4zlibw82b06j";
+const char mqtt_username[] = ;
+const char mqtt_password[] = ;
 uint32_t mqtt_port = 1883;
 
 uint8_t turnon = 0;
