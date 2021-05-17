@@ -1,14 +1,3 @@
-/*
- *  mqtt_app.h file
- *
- * 	author	: Dadan
- * 	email	: dadanugm07@gmail.com
- * 	date	: 8/2/2021
- * 	revison	:
- *
-*/
-
-
 #ifndef __MQTT_APP_H
 #define __MQTT_APP_H
 
